@@ -1,0 +1,24 @@
+{
+  "name": "slide_template",
+  "version": "1.0.0",
+  "description": "this repository is slide template",
+  "main": "index.js",
+  "scripts": {
+    "pdf": "npm run build && fusuma pdf",
+    "start": "fusuma start",
+    "build": "fusuma build",
+    "deploy": "npm run build && fusuma deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takao-h/slide_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takao-h/slide_template/issues"
+  },
+  "homepage": "https://github.com/takao-h/slide_template#readme"
+}
